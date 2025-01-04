@@ -1,0 +1,11 @@
+<h1>Personajes de Harry Potter</h1>
+<div class="characters">
+  @for(character of characters; track character.id) {
+  <div class="character">
+    <h3>{{character.attributes.name}}</h3>
+    <p>Conoce mas de su historia aqui: <a [href]="character.attributes.wiki" target="_blank">Wiki Link</a>
+    </p>
+    <img [src]="character.attributes.image" alt="imagen de {{character.attributes.name}}">
+  </div>
+  }
+</div>

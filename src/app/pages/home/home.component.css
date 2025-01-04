@@ -1,0 +1,28 @@
+.home-container {
+  background-image: url('https://images.unsplash.com/photo-1507242837333-4d90b0a1f3e0'); /* Valid public image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  margin: 0; 
+  padding: 20px; 
+}
+
+.home-container h1 {
+    text-align: center;
+    margin: 30px;
+    font-family: 'Cinzel', serif;
+    color: #4a2e19;
+  }
+
+.home-container p {
+  font-size: 1.5rem;
+  max-width: 800px;
+}
